@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout
+    android:background="#ffffff"
+    android:layout_height="40dp"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+   <RelativeLayout
+       android:layout_height="match_parent"
+       android:layout_width="wrap_content"
+       android:gravity="center"
+       android:layout_weight="1"
+       android:id="@+id/rl_nav_category_main_check">
+
+    <ImageView
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:id="@+id/check"
+        android:src="@drawable/tab_check_selector"
+        android:layout_marginRight="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+</RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:id="@+id/rl_nav_category_main_select">
+
+    <ImageView
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:id="@+id/select"
+        android:src="@drawable/tab_select_selector"
+        android:layout_marginRight="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>
+
+
+   <RelativeLayout
+       android:layout_height="match_parent"
+       android:layout_width="wrap_content"
+       android:gravity="center"
+       android:layout_weight="1"
+       android:id="@+id/rl_nav_category_main_setting">
+
+    <ImageView
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:id="@+id/setting"
+        android:src="@drawable/tab_setting_selector"
+        android:layout_marginRight="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:id="@+id/rl_nav_category_main_calendar">
+
+    <ImageView
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:id="@+id/calendar"
+        android:src="@drawable/tab_calendar_selector"
+        android:layout_marginRight="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>
+
+</LinearLayout>
